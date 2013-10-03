@@ -1,0 +1,18 @@
+---
+title: ブログ引越し＆再開
+date: 2013-10-03
+tags: blog
+---
+ブログ引越し＆再開しました。Tumblr好きだったけど、HTMLの編集がやりづらすぎてMiddlemanで作ることにしました。
+
+[Middleman: Hand-crafted frontend development](http://middlemanapp.com/ "Middleman: Hand-crafted frontend development")
+
+Middlemanいいですね。自分で作りたいところと規約で適当にやってほしいところのバランスが良いです。
+Bootstrap使ってSlimでレイアウト書いてmarkdownで記事を書くという、いかにもエンジニアが手抜きで作った感じになっていますが、楽なのはいいです。一応ソースも上げておきます。
+
+[hexx/gaeds](https://github.com/hexx/gaeds "hexx/gaeds")
+
+ブログの内容は相変わらずScalaのこととか、行ったイベントのこととか、関数型の話が中心になると思います。
+とりあえずはScalaのマクロの話とかScala.jsとか型関連のことなどを書くと思います。
+
+今後ともよろしくお願いします。
