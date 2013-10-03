@@ -2,19 +2,20 @@
 Time.zone = 'Tokyo'
 
 activate :blog do |blog|
+  blog.prefix = 'blog'
   blog.sources = 'articles/:year-:month-:day-:title.html'
   blog.layout = 'article'
-  blog.tag_template = 'tag.html'
-  blog.calendar_template = 'calendar.html'
+  blog.tag_template = 'blog/tag.html'
+  blog.calendar_template = 'blog/calendar.html'
 end
 
-page '/feed.xml', :layout => false
+page 'feed.xml', :layout => false
 
 require 'slim'
 
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
+set :css_dir, 'blog/stylesheets'
+set :js_dir, 'blog/javascripts'
+set :images_dir, 'blog/images'
 
 activate :deploy do |deploy|
   deploy.method = :git
