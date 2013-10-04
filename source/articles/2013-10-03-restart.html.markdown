@@ -10,7 +10,7 @@ tags: blog
 Middlemanいいですね。自分で作りたいところと規約で適当にやってほしいところのバランスが良いです。
 Bootstrap使ってSlimでレイアウト書いてmarkdownで記事を書くという、いかにもエンジニアが楽に作った感じになっていますが、まあ楽なのはいいです。一応ソースも上げておきます。
 
-[hexx/gaeds](https://github.com/hexx/gaeds "hexx/gaeds")
+[hexx/blog](https://github.com/hexx/blog "hexx/blog")
 
 最初はGithub Pagesで公開しようと思っていたのですが、あまり更新などがうまくいかなかったのでS3を使うことにしました。ドメイン取ったりして面倒くさかったです。
 
